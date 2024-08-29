@@ -1,0 +1,171 @@
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #eee;
+  padding: 0 16px;
+}
+
+header {
+  background-color: #f5ba13;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+}
+
+.timebutton{
+  background-color: rgba(248, 211, 2, 0.473);
+  color: #ffffff;
+  border-radius: 20px;
+  border-color: goldenrod;
+  gap:20px;
+  padding: 10px;
+}
+
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+  margin-top: 40px;
+}
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.outsidecontainer{
+  display: flex;
+  width:50vw;
+  height:30%;
+  margin:50px 10px 0 0 ;  
+  flex-direction: column;
+  text-align: center;
+  gap:20px;  
+  border-color: 20px solid "gold";
+  justify-content: center;
+  position: relative;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.notetextarea, .titlenote {
+  width: 100%;
+  height:40px;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+
+.Finalnotebutton
+{
+  position: absolute; 
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+  margin: 15px -90px;
+}
+
+.FinalnoteDelbutton{
+  position: absolute; 
+  color: #ffffff;
+  background-color: gold;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-top: -16px;
+  margin-left: 200px;
+  border-color:goldenrod;
+  font-size: larger;
+  font-weight: bolder;
+  text-emphasis-position: under;
+  border: none;
+  top: "0";
+  left:"0"
+}
+.finalNoteHeader{
+  flex-direction: row;  
+}
+
+.editnote{
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: auto;
+  margin: 16px;
+  float: left;
+}
+.noteinput{
+  border-color: #d3eae8;
+  padding:10px;
+  font-size: larger;
+  border-radius: 10px;
+  border-collapse: separate;
+  border: none ;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.notebutton{
+  background-color: #f6f5f2;
+  color: #616161;
+  border-radius: 10px;
+  border-color:rgb(244, 219, 77);
+  gap:30px;
+  margin-left: 20px;
+  padding: 15px;
+  height:45px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.editNoteHeading{
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.editNoteMark{
+  background-color: rgb(244, 219, 77);
+  border-radius: 6px;
+  height: auto;
+}
+.editNoteItemlist{
+  color:"black";
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: medium;
+}
