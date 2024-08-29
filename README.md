@@ -3,11 +3,13 @@
 Project used to show the list functionality of Mokoto Language.
 
 ## Running the project locally
+```Bash
+dfx new Keeper
+```
 
 download src Folder 
 replace with the main src directory
 
-If you are making frontend changes, you can start a development server with
 
 ```bash
 dfx start
